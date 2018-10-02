@@ -1,252 +1,757 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>CodeSmith</title>
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet prefetch' href='css/bootstrap.min.css'>
-    <!-- <link rel="stylesheet" href="css/all.css"> -->
 
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/animate.css">
+   
 
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
 
-</head>
-<body>
-    <div id="wrapper">
-        <div class="overlay wow fadeIn" data-wow-duration="1s" data-wow-delay="2s"></div>
+  </head>
 
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top wow fadeIn" data-wow-duration="2s" data-wow-delay="5s" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav wow fadeIn" data-wow-duration="2s" data-wow-delay="5s">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        CodeSmith
-                    </a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-folder"></i> Page one</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-file-o"></i> Second page</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-cog"></i> Third page</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-plus"></i>
-                        Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="dropdown-header">Dropdown heading</li>
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-bank"></i> Page four</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-dropbox"></i> Page 5</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa fa-fw fa-twitter"></i> Last page</a>
-                </li>
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
+  <body id="page-top">
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-                <span class="hamb-middle"></span>
-                <span class="hamb-bottom"></span>
-            </button>
-</div>
-
-    <!----header image-->
-    <header class="header-image">
-        <img src="images/code.jpg" alt="" class="img-responsive animated fadeIn ">
-        <h1  >Welcome to CodeSmith</h1>
-        <div class="header-content">
-            
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top animated fadeIn" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CodeSmith</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+         
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#">Create Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="log.html">Log In</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#">Sign Up</a>
+                </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead animated fadeIn">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading wow fadeInUp "  style="font-family:Streamster" >Welcome To CodeSmith</div>
+          <div class="intro-p-in wow fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, natus?</div><br><br>
+          <a class="btn btn-outline-danger btn-xl text-uppercase js-scroll-trigger wow fadeInUp" href="#services" >Learn More</a>
+            <a class="btn btn-danger btn-xl text-uppercase js-scroll-trigger wow fadeInUp" href="#services" id="left">Get Started</a>
+        </div>
+      </div>
     </header>
-<div>
-    
-</div>
-    <!----thumbnail------>
+ 
 
-    <div class="container">
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
         <div class="row">
-            <p style="text-align:center;" class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, nam asperiores tenetur labore nihil, esse
-                explicabo magni magnam quam odio repellendus molestias reiciendis corporis neque autem, fugiat architecto sed ipsa!</p><br><br><br><br><br>
-            <div class="col-md-4 col-sm-4 ">
-                <div class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
-                    <img src="images/jim.jpg" alt="" class="img-responsive">
-                    <h3>Social Connect</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor tempora delectus culpa? Alias ipsum, ipsa voluptas
-                        facere cumque blanditiis eius.</p>
-                </div>
-                 
-                </div>
-
-
-                <div class="col-md-4 col-sm-4 ">
-                    <div class="wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2.7s">
-                        <img src="images\adult-book-business-297755.jpg" alt="" class="img-responsive">
-                        <h3>Group Sharing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor tempora delectus culpa? Alias ipsum, ipsa
-                            voluptas facere cumque blanditiis eius.</p>
-                    </div>
-                   
-                </div>
-
-
-                <div class="col-md-4 col-sm-4 ">
-                    <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="3.3s">
-                            <img src="images\code1.jpg" alt="" class="img-responsive">
-                            <h3>Learning at its Best</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor tempora delectus culpa? Alias ipsum, ipsa
-                                voluptas facere cumque blanditiis eius.</p>
-                    </div>
-                
-                </div>
-            </div>
-
-            
-            
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading lead wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">We Stand to bring a change to you</h2>
+          <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quaerat blanditiis fuga id veritatis magni voluptate impedit saepe praesentium provident!</p>
+          </div>
         </div>
-    </div><br><br><br><br><br>
-    <h1 style="text-align:center" class="wow fadeInUp"data-wow-duration="1s" data-wow-delay="2s">CodeSmith, a hub for Learning and Sharing</h1>
-        <!--Sec-1-->
-        <div class="container" >
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x wow fadeInLeft" data-wow-duration="1s" data-wow-delay="3s">
+              <i class="fas fa-database fa-stack-2x text-danger"></i>
+              <i class="fas fa-shopping-circle fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="3.5s">DataBase Security</h4>
+            <p class="text-muted wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x wow fadeInUp" data-wow-duration="1s" data-wow-delay="3s">
+              <i class="fas fa-circle fa-stack-2x text-danger"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="3.5s">Responsive Design</h4>
+            <p class="text-muted wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x wow fadeInRight"data-wow-duration="1s" data-wow-delay="3s" >
+              <i class="fas fa-circle fa-stack-2x text-danger"></i>
+              <i class="fas fa-edit fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="3.5s">Help in Diversity</h4>
+            <p class="text-muted wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+        <!--mid-->
+        <section class="mid">
+          <div class="container">
             <div class="row">
-                <h2 style="padding:0 0  0 .6em;" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.7s">What we do</h2>
-                <p style="padding:0 0 0 1em;" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Molestias sed sunt mollitia accusantium id voluptas,
-                <br> consequatur maiores quis illum numquam!</p>
-                <div class="col-md-4 col-sm-4 ">
-                 <br><br>
-                    <ul class="list-box">
-                        <li class="wow fadeIn"data-wow-duration="1.5s" data-wow-delay="3.6s"><i class="fas fa-check" style="color:darkorange; font-size: 20px;">.</i> Far far away</li>
-                        <li class="wow fadeIn"data-wow-duration="1.5s" data-wow-delay="3.7s"><i class="fas fa-check"style="color:darkorange; font-size: 20px;">.</i>tThere lived a Dummy Text</li>
-                        <li class="wow fadeIn"data-wow-duration="1.5s" data-wow-delay="3.8s"><i class="fas fa-check"style="color:darkorange; font-size: 20px;">.</i>In the mountain of words</li>
-                        <li class="wow fadeIn"data-wow-duration="1.5s" data-wow-delay="3.9s"><i class="fas fa-check"style="color:darkorange; font-size: 20px;">.</i>Called Lorem Ipsum</li>
-                    </ul>
-                    <button class="btn btn-primary wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="4s">Learn More</button>
-
-                </div><br><br><br>
-                <div class="col-md-8 col-sm-8 ">
-                    <img src="images/smart.jpg" alt="" class="img-responsive wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="4.5s">
-                </div>
-
-               
+              <div class="col-md-8">
+                <h1 class="section-heading ">
+                  Our Interface
+                </h1>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem mollitia adipisci quidem saepe perspiciatis odit veniam, dolores laboriosam? Dignissimos, corporis.</p>
+                
+              </div>
+              <div class="col-md-4">
+                <img src="img/smart.jpg" alt="" class="d-block w-100" >
+              </div>
             </div>
-        </div>
-
-        <!--sec-2-->
-        <div class="container">
-            <h3 style="text-align:center" class="wow fadeInUp" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">What we help you to Achieve at CodeSmith</h3>
-            <p style="text-align:center" class="wow fadeInUp" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum illum quo impedit libero at corrupti perspiciatis necessitatibus officiis animi. Aspernatur eos ad aliquid quae ullam quaerat odio animi necessitatibus!</p>
-        </div>
-        <div  style="background:black" class="wow fadeIn" class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.8s">
-        <div class="row" id="bottom">
-            <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="3s" >
-        <br><br><br><br><br><br><br><br>
-                <a href="" style="text-decoration:none;"><img src="images\pexels-photo-97077.jpeg" class="img-responsive" id="imgShadow">
-                    <div class="img-caption">
-                        <h3>Programming</h3>
-                </a>
-                <a href=""style="text-decoration:none;"><span>View Course</span></a>
-            </div>
-        
-        
-        </div>
-        
-        <div class="col-md-4 col-sm-4 wow fadeIn" data-wow-duration="3.5s" data-wow-delay="4s">
-        <br><br><br><br><br><br><br><br>
-            <a href="" style="text-decoration:none;"><img src="images/branding-design-pencils-6444.jpg" class="img-responsive">
-                <div class="img-caption">
-                    <h3>Web Design</h3>
-            </a>
-            <a href="" style="text-decoration:none;"><span>View Course</span></a>
-        </div>
-        
-        </div>
-        
-        <div class="col-md-4 col-sm-4 wow fadeInRight"data-wow-duration="3s" data-wow-delay="4.5s" >
-        <br><br><br><br><br><br><br><br>
-            <a href="" style="text-decoration:none;"><img src="images\pexels-photo-436775.jpeg" class="img-responsive">
-                <div class="img-caption">
-                    <h3>Graphics</h3>
-            </a>
-            <a href="" style="text-decoration:none;"><span>View Course</span></a>
-        </div>
-        
-        </div>
-        </div>
-        <div class="row" id="bottom">
-            <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration="3s" data-wow-delay="5s">
-        <br><br>
-                <a href="" style="text-decoration:none;"><img src="images\analysis-business-businesswoman-955447.jpg" class="img-responsive">
-                    <div class="img-caption">
-                        <h3>System Analysis</h3>
-                </a>
-                <a href="" style="text-decoration:none;"><span>View Course</span></a>
-            </div>
-        
-        </div>
-        
-        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="3.5s" data-wow-delay="5.5s">
-        <br><br>
-            <a href="" style="text-decoration:none;"><img src="images\security-protection-anti-virus-software-60504.jpeg" class="img-responsive">
-                <div class="img-caption">
-                    <h3>Cyber Security</h3>
-            </a>
-            <a href="" style="text-decoration:none;"><span>View Course</span></a>
-        </div>
-        
-        </div>
-        
-        <div class="col-md-4 col-sm-4 wow fadeInRight" data-wow-duration="4s" data-wow-delay="6s">
-        <br><br>
-            <a href="" style="text-decoration:none;"><img src="images\pexels-photo-295058.jpeg" class="img-responsive">
-                <div class="img-caption">
-                    <h3>App Development(IOS/Android)</h3>
-            </a>
-            <a href="" style="text-decoration:none;"><span>View Course</span></a>
-        </div>
-        </div>
-        </div>
+            <div class="row">
+              
+<div class="center" style="text-align:center">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero, a qui in dolore laboriosam expedita
+    ipsa deserunt illo eius incidunt harum sint ad eum facilis tempore obcaecati quasi dicta! Ratione recusandae
+    temporibus, cum laborum hic esse est necessitatibus nostrum expedita neque doloremque aut eligendi ducimus magnam
+    officia pariatur quaerat!</p>
 </div>
+           
 
+            
+            </div>
+            
+         
+          </div>
+        </section>
+        
+        
+          <div class="bg">
+            <img src="img/feature_bg.png" alt="" class="d-block w-100">
+            <h2 class="bg-heading lead text-center" style="font-size:3em" id="bg">Get in touch today, and get the knowledge you need with CodeSmith</h2>
+          </div>
+       
 
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-capitalize">What we help you Achieve at   CodeSmith</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\security-protection-anti-virus-software-60504.jpeg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Cyber Security</h4>
+              <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\pexels-photo-295058.jpeg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>App Development(IOS/android)</h4>
+            <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\program_img5.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Programming</h4>
+                <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\program_img3.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Data Analysis</h4>
+            <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\program_img6.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Hacking</h4>
+                <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img\program_img4.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Robotics</h4>
+              <p class="text-muted"> <a href="" style="text-decoration:none">Join Forum</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Join a new Firm</h4>
+                    <h4 class="subheading">Coming with a new twist</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Create a Connection Today</h4>
+                    <h4 class="subheading">with a new Agency</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Meet people that will Share and help your Growth</h4>
+                    <h4 class="subheading">Transition to better Developer</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Meet your new phase today</h4>
+                    <h4 class="subheading">Happiness at the end</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Be Part
+                    <br>Of Our
+                    <br>Story!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Ameh-Omale David</h4>
+              <p class="text-muted">Lead Designer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
+              <h4>Odoh Nezar</h4>
+              <p class="text-muted">Designer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+              <h4>Iorsase Sesugh</h4>
+              <p class="text-muted">Back-end Developer</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+   
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Contact Us</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; CodeSmith</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- Portfolio Modals -->
 
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Cyber Security</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\security-protection-anti-virus-software-60504.jpeg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+               
+                   
+                    <li>Category:Cyber Security</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="" type="button">
+                    <i class="fas fa-check"></i>
+                    Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">App Dev</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\pexels-photo-295058.jpeg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                 
+                    <li>Category:App Dev</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="" type="button">
+                    <i class="fas fa-check"></i>
+                    Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-            <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
-            <script src="js/wow.min.js"></script>
-            <script>
-                new WOW().init();
-            </script>
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Programming</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\program_img5.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                 
+                    <li>Category: java,phython, ruby on rail, etc</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="" type="button">
+                    <i class="fas fa-check"></i>
+                    Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <script src="js/index.js"></script>
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Data Analysis</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\program_img3.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                  
+                    <li>Category: Phython dataScience,JavaScript</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="" type="button">
+                    <i class="fas fa-check"></i>
+                    Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Hacking</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\program_img6.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    
+                    <li>Category:Hacking</li>
+                  </ul><br><br>
+                    <button class="btn btn-primary" data-dismiss="" type="button">
+                      <i class="fas fa-check"></i>
+                      Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Robotics</h2>
+                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <img class="img-fluid d-block mx-auto" src="img\program_img4.jpg" alt="">
+                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                  <ul class="list-inline">
+                    
+                    <li>Category: Arduino</li>
+                  </ul>
+                    <button class="btn btn-primary" data-dismiss="" type="button">
+                      <i class="fas fa-check"></i>
+                      Start Project</button><br><br>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    
+    <script src="js/index.js"></script>
+
+  </body>
 
 </html>
