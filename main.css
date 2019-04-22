@@ -1,0 +1,259 @@
+@-ms-viewport {
+	width: device-width;
+}
+
+html {
+	box-sizing: border-box;
+	-ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+/* -----------------colors------------------ */
+            /* background  colors */
+.bg-light-gray {
+	background-color: rgb(247, 247, 247);
+}
+
+.bg-red {
+	background-color: rgb(255, 196, 196);
+}
+.bg-white{
+	background-color: rgb(255, 255, 255);
+}
+.bg-gray {
+	background-color: rgb(212, 212, 212);
+}
+.bg-snow {
+	background-color: snow;
+}
+.bg-smoke {
+	background-color: whitesmoke;
+}
+.bg-ghost {
+	background-color: ghostwhite;
+}
+/*------------------------------------------------------ */
+			/* outline colors */
+.outline-white{
+	border-color: white;
+	
+}
+.outline-smoke {
+	border-color: whitesmoke;
+}
+.outline-snow {
+	border-color: snow;
+}
+.outline-black {
+	border-color: black;
+}
+.outline-gray {
+	border-color: rgb(212, 212, 212);
+}
+.outline-red {
+	border-color: rgb(255, 196, 196);
+}
+/* -------------- sizes and media--------------- */
+/* _________ elements _______ */
+.main-container {
+	width: 100%;
+	height: 100vh;
+	/* padding-right: 15px;
+	padding-left: 15px; */
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 800px;
+	max-height: 95vh;
+	overflow: hidden;
+}
+.inner-main{
+	width: 100%;
+	height: 89%;
+	 /* padding-right: 1px;
+	padding-left: 1px;  */
+	padding-top: 2px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: space-between;
+	/* max-width: 800px;
+	max-height: 95vh; */
+	overflow: hidden;
+}
+.nav-top {
+	position: relative;
+	height: 50px;
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+.logo {
+	position: absolute;
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+
+	left: 5%;
+	top: 10%;
+	justify-content: center;
+	/* text styling *feel free to remove it*  */
+
+	text-align: center;
+	font-size: 200%;
+	font-family: impact;
+	color: white;
+
+}
+
+.search {
+	position: absolute;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+
+	left: 75%;
+	top: 17%;
+	justify-content: center;
+}
+
+.notification {
+	position: absolute;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+
+	left: 90%;
+	top: 20%;
+	justify-content: center;
+}
+.newsfeed-cover {
+	display: inline-block;
+	position: relative;
+	width: 60%;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	 /* margin-right: auto; 
+    margin-left: auto;  */
+	/* max-width: 800px;
+	max-height: 95vh; */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.newsfeed {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/* padding-right: 15px;
+	padding-left: 15px; */
+	/* margin-right: auto; 
+    margin-left: auto; */
+	/* max-width: 800px;
+	max-height: 95vh; */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.story-cover{
+	display: inline-block;
+	position: relative;
+	/* top :0%; */
+	width: 38%;
+	height: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	/* /* margin-right: auto;  */
+	 margin-left: 2%;   
+	/* max-width: 800px;
+	max-height: 95vh; */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.story {
+	display: block;
+	position: relative;
+	/* top: 0%; */
+	width: 100%;
+	height: 85%;
+	/* padding-right: 15px;
+	padding-left: 15px; */
+	/* margin-right: auto;
+	margin-left: auto; */
+	/* max-width: 800px;
+	max-height: 95vh; */
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.bottom-nav {
+	position: absolute;
+	display: flex;
+	right:0;
+	left: 0;
+	bottom: 20px;
+	/* top: 0%; */
+	z-index: 1030;
+	height: 35px;
+	width: 500px;
+	justify-self: center;
+	justify-content: space-around;
+	justify-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	/* opacity: 0.4; */
+
+}
+
+.bottom-nav .nav-item{
+	position: relative;
+	display:inline-block;
+	 /* background-color: rgb(230, 230, 230); */
+	 margin-left: 5px;
+	 margin-right: 5px;
+	 width:25px;
+	 height:25px;
+	 margin-top:2%;
+	 /* margin-bottom:50%; */
+
+ 
+}
+
+/* --------- utilities------------ */
+.fixed-bottom {
+
+}
+.outline{
+	border-style: solid;
+	border-width: 1px;
+}
+.circle{
+	border-radius: 100%;
+}
+/* __________ media___________ */
+@media (min-width: 576px) {
+	.main-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.main-container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.main-container {
+		max-width: 700px;
+		max-height: 97vh;
+	}
+
+}
+
