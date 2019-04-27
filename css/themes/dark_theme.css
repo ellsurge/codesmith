@@ -1,0 +1,241 @@
+/* here are all the colors for the dark theme of the site */
+/* text colors
+
+*/
+    .text-color-light_green {
+        color: #99b433;
+    }
+    .text-color-green {
+        color: #00a300;
+    }
+    .text-color-dark_green {
+        color: #1e7145;
+    }
+    .text-color-magenta {
+        color: #ff0097;
+    }
+    .text-color-light_purple {
+        color: #9f00a7;
+    }
+    .text-color-purple {
+        color: #7e3878;
+    }
+    .text-color-dark_purple {
+        color: #603cba;
+    }
+    .text-color-darken {
+        color: #1d1d1d;
+    }
+    .text-color-teal {
+        color: #00aba9;
+    }
+    .text-color-light_blue {
+        color: #eff4ff;
+    }
+    .text-color-blue {
+        color: #2d89ef;
+    }
+    .text-color-dark_blue {
+        color: #2b5797;
+    }
+    .text-color-yellow {
+        color: #ffc40d;
+    }
+    .text-color-orange {
+        color: #e3a21a;
+    }
+    .text-color-dark_orange {
+        color: #da532c;
+    }
+    .text-color-red {
+        color: #ee1111;
+    }
+    .text-color-dark_red {
+        color: #b91d47;
+    }
+    .text-color-white {
+        color: #ffffff;
+    }
+    .text-color-color-white {
+        color: #ffffff;
+    }
+
+    .text-color-color-gray {
+        color: #aaaaaa;
+    }
+
+    .text-color-color-silver {
+        color: #dddddd;
+    }
+
+/* background colors */
+
+    .bg-color-light_green {
+        background-color: #99b433;
+    }
+
+    .bg-color-green {
+        background-color: #00a300;
+    }
+
+    .bg-color-dark_green {
+        background-color: #1e7145;
+    }
+
+    .bg-color-magenta {
+        background-color: #ff0097;
+    }
+
+    .bg-color-light_purple {
+        background-color: #9f00a7;
+    }
+
+    .bg-color-purple {
+        background-color: #7e3878;
+    }
+
+    .bg-color-dark_purple {
+        background-color: #603cba;
+    }
+
+    .bg-color-darken {
+        background-color: #1d1d1d;
+    }
+
+    .bg-color-teal {
+        background-color: #00aba9;
+    }
+
+    .bg-color-light_blue {
+        background-color: #eff4ff;
+    }
+
+    .bg-color-blue {
+        background-color: #2d89ef;
+    }
+
+    .bg-color-dark_blue {
+        background-color: #2b5797;
+    }
+
+    .bg-color-yellow {
+        background-color: #ffc40d;
+    }
+
+    .bg-color-orange {
+        background-color: #e3a21a;
+    }
+
+    .bg-color-dark_orange {
+        background-color: #da532c;
+    }
+
+    .bg-color-red {
+        background-color: #ee1111;
+    }
+
+    .bg-color-dark_red {
+        background-color: #b91d47;
+    }
+
+    .bg-color-white {
+        background-color: #ffffff;
+    }
+
+    .bg-color-color-white {
+        background-color: #ffffff;
+    }
+
+    .bg-color-color-gray {
+        background-color: #aaaaaa;
+    }
+
+    .bg-color-color-silver {
+        background-color: #dddddd;
+    }
+
+    /* border colors */
+
+    .border_green {
+        border-color: #99b433;
+    }
+
+    .border-green {
+        border-color: #00a300;
+    }
+
+    .border-dark_green {
+        border-color: #1e7145;
+    }
+
+    .border-magenta {
+        border-color: #ff0097;
+    }
+
+    .border-light_purple {
+        border-color: #9f00a7;
+    }
+
+    .border-purple {
+        border-color: #7e3878;
+    }
+
+    .border-dark_purple {
+        border-color: #603cba;
+    }
+
+    .border-darken {
+        border-color: #1d1d1d;
+    }
+
+    .border-teal {
+        border-color: #00aba9;
+    }
+
+    .border-light_blue {
+        border-color: #eff4ff;
+    }
+
+    .border-blue {
+        border-color: #2d89ef;
+    }
+
+    .border-dark_blue {
+        border-color: #2b5797;
+    }
+
+    .border-yellow {
+        border-color: #ffc40d;
+    }
+
+    .border-orange {
+        border-color: #e3a21a;
+    }
+
+    .border-dark_orange {
+        border-color: #da532c;
+    }
+
+    .border-red {
+        border-color: #ee1111;
+    }
+
+    .border-dark_red {
+        border-color: #b91d47;
+    }
+
+    .border-white {
+        border-color: #ffffff;
+    }
+
+    .border-color-white {
+        border-color: #ffffff;
+    }
+
+    .border-color-gray {
+        border-color: #aaaaaa;
+    }
+
+    .border-color-silver {
+        border-color: #dddddd;
+    }

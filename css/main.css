@@ -12,51 +12,7 @@ html {
 *::after {
 	box-sizing: inherit;
 }
-/* -----------------colors------------------ */
-            /* background  colors */
-.bg-light-gray {
-	background-color: rgb(247, 247, 247);
-}
 
-.bg-red {
-	background-color: rgb(255, 196, 196);
-}
-.bg-white{
-	background-color: rgb(255, 255, 255);
-}
-.bg-gray {
-	background-color: rgb(212, 212, 212);
-}
-.bg-snow {
-	background-color: snow;
-}
-.bg-smoke {
-	background-color: whitesmoke;
-}
-.bg-ghost {
-	background-color: ghostwhite;
-}
-/*------------------------------------------------------ */
-			/* outline colors */
-.outline-white{
-	border-color: white;
-	
-}
-.outline-smoke {
-	border-color: whitesmoke;
-}
-.outline-snow {
-	border-color: snow;
-}
-.outline-black {
-	border-color: black;
-}
-.outline-gray {
-	border-color: rgb(212, 212, 212);
-}
-.outline-red {
-	border-color: rgb(255, 196, 196);
-}
 /* -------------- sizes and media--------------- */
 /* _________ elements _______ */
 .main-container {
@@ -230,30 +186,3 @@ html {
 .circle{
 	border-radius: 100%;
 }
-/* __________ media___________ */
-@media (min-width: 576px) {
-	.main-container {
-		max-width: 540px;
-	}
-}
-
-@media (min-width: 768px) {
-	.main-container {
-		max-width: 720px;
-	}
-}
-
-@media (min-width: 992px) {
-	.main-container {
-		max-width: 960px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.main-container {
-		max-width: 700px;
-		max-height: 97vh;
-	}
-
-}
-

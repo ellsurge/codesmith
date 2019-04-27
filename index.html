@@ -22,14 +22,28 @@ nd lastly, creativity is most welcome, as a matter of fact it is the bed rock
  -->
 
 <!DOCTYPE html>
-<html>
-  <head>
-<link rel="stylesheet" href="main.css" media="screen">
+<html lang="en" >
+
+	<head id="head">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- js initialization -->
+		<script src="js/vendor/vue.js"></script>
+		<div id="head-style">
+				<title>{{title}}</title>
+			<link rel="stylesheet" :href="theme">
+			<template v-for="style in styles">
+
+				<link rel="stylesheet" :href="style" :index="style.index">
+			</template>
+		</div>
 	
-</head>
-<body>
+	</head>
+<body >
+<div :class="style" id="body">
 	<!-- main body -->
-	<div class="main-container outline outline-smoke bg-white">
+	<div class="main-container">
 		<!-- top nav -->
 		<div class="nav-top bg-smoke">
 			<!-- logo -->
@@ -47,23 +61,23 @@ nd lastly, creativity is most welcome, as a matter of fact it is the bed rock
 			<tr>
 				<td class="newsfeed-cover ">
 					<div class="newsfeed outline bg-white outline-red"></div>
-
+	
 				</td>
 				<td class="story-cover ">
 					<div class="story outline outline-red bg-red">
-
+	
 					</div>
 				</td>
 			</tr>
 		</table>
 		<!-- bottom nav -->
-		<div  class="bg-light-gray outline-white bottom-nav fixed-bottom ">
+		<div class="bg-light-gray outline-white bottom-nav fixed-bottom ">
 			<nav id="bottom-nav">
 				<!-- news feed -->
 				<a href="#" class="nav-item circle bg-red outline outline-gray"></a>
 				<!-- chat -->
 				<a href="#" class="nav-item circle 
-				bg-red"></a>
+					bg-red"></a>
 				<!-- create post -->
 				<a href="#" class="nav-item circle bg-red"></a>
 				<!-- tutorials -->
@@ -75,5 +89,7 @@ nd lastly, creativity is most welcome, as a matter of fact it is the bed rock
 			</nav>
 		</div>
 	</div>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>

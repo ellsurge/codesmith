@@ -1,0 +1,31 @@
+/* this is the css file for all media querries,
+just tout it would be easierer to keep ttrack of all 
+css if we kept each component in a deferent folder
+ */
+
+ /* __________ media___________ */
+ @media (min-width: 576px) {
+     .main-container {
+         max-width: 540px;
+     }
+ }
+
+ @media (min-width: 768px) {
+     .main-container {
+         max-width: 720px;
+     }
+ }
+
+ @media (min-width: 992px) {
+     .main-container {
+         max-width: 950px;
+     }
+ }
+
+ @media (min-width: 1200px) {
+     .main-container {
+         max-width: 700px;
+         max-height: 97vh;
+     }
+
+ }
